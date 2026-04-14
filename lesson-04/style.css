@@ -1,0 +1,64 @@
+.back {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.next {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.page {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.stretch {
+    background-color: green;
+    color: white;
+    padding: 5px 12px 5px 12px;
+    border: none;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.stretch:hover {
+    padding: 10px 20px 10px 20px;
+}
+
+.shadow {
+    background-color: green;
+    color: white;
+    padding: 3px 12px 3px 12px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.shadow:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: padding 0.15s, margin 0.15s;
+}
+
+.button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
