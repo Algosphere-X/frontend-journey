@@ -1,0 +1,95 @@
+.div-1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 30px;
+}
+
+.first-1 {
+    background-color: lightblue;
+}
+
+.second-2 {
+    background-color: lightpink;
+}
+
+.div-2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 40px;
+}
+
+.third-3 {
+    background-color: lightblue;
+}
+
+.forth-4 {
+    background-color: lightpink;
+}
+
+.fifth-5 {
+    background-color: lightblue;
+}
+
+.div-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.sixth-6 {
+    background-color: lightsalmon;
+}
+
+.photocard {
+    height: 395px;
+    /* width: 280px; */
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-width: 0px;
+    /* display: inline-block; */
+    /* margin-right: 10px; */
+    
+}
+
+.cat {
+    height: 290px;
+    width: 280px;
+    object-fit: cover;
+}
+
+.name-1 {
+    font-weight: bold;
+    margin-top: 6px;
+    padding-left: 7px;
+    margin-bottom: 4px;
+}
+
+.friend {
+    padding-left: 7px;
+    margin-top: 4px;
+    font-size: 15px;
+    color: rgb(114, 110, 110);
+    margin-bottom: 10px;
+}
+
+.add-friend {
+    background-color: rgb(0, 136, 255);
+    color: white;
+    margin-left: 7px;
+    border: none;
+    height: 30px;
+    width: 110px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    column-gap: 20px;
+    align-items: center;
+}
